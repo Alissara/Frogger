@@ -24,20 +24,20 @@ Frogger is an arcade game developed in 1981 by Konami. The objective of the game
 ### Architecture
 
 - `game_view.js`: game instance, canvas context
-- `game.js`: moves the objects, checks for collisions, draws the game
+- `game.js`: moves the objects, checks for collisions, draws the game, keeps track of frog lives
 - `cars.js`: car objects
 - `frog.js`: frog object
 - `moving_object.js`: base class for moving objects
 
 ### Implementation Timeline
 
-**Day 1**: Setup Node modules, set up webpack and `Easel.js`. Learn `HTML5 Canvas` and `Easel.js`. Render game board.
+**Day 1**: Setup Node modules, set up webpack and `Easel.js`. Learn `HTML5 Canvas` and look into using `Easel.js`. Render game board, create safe zone and traffic zone.
 
-**Day 2**: Create and render the moving cars.
+**Day 2**: Create and render the moving cars. Have cars in different lanes move at different speeds. The top lanes can move left to right, bottom lanes move right to left. Wrap the cars around the screen.
 
-**Day 3**: Create and render the frog. Be able to move the frog. Add collision detection.
+**Day 3**: Create and render the frog. Allow users to move the frog up, down, right, left with arrow keys. Add collision detection.
 
-**Day 4**: Add win/lose logic. Style the frontend.
+**Day 4**: Add win/lose logic, frog lives tracking. Style the frontend.
 
 ### Bonus features
 
