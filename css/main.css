@@ -1,0 +1,37 @@
+html, body, canvas, h1, section, img, p {
+  margin: 0;
+  border: 0;
+  padding: 0;
+
+  font: inherit;
+  text-align: inherit;
+  text-decoration: inherit;
+  color: inherit;
+
+  background: transparent;
+}
+
+body {
+  font-family: 'Baloo Bhaina', sans-serif;
+  color: #0e592c;
+}
+
+h1, .instruct, .canvas {
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 30px;
+  height: 35px;
+}
+
+.instruct p {
+  padding-top: 10px;
+}
+
+.instruct img {
+  height: 50px;
+  width: auto;
+  padding-left: 5px;
+}
