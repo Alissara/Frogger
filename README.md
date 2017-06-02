@@ -2,7 +2,7 @@
 
 [Frogger Live][link]
 
-[link]: https://github.com/Alissara/Frogger
+[link]: https://alissara.github.io/Frogger/
 
 ### Background
 
