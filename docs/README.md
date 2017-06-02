@@ -27,7 +27,6 @@ Frogger is an arcade game developed in 1981 by Konami. The objective of the game
 - `game.js`: moves the objects, checks for collisions, draws the game, keeps track of frog lives
 - `cars.js`: car objects
 - `frog.js`: frog object
-- `moving_object.js`: base class for moving objects
 
 ### Implementation Timeline
 
