@@ -21,8 +21,22 @@ Use the arrow keys to move the frog around. Try to get the frog to the other sid
 
 ### Technical implementation
 
-Basically anything you had to stop and think about before building
-Code snippets for these
+Implemented `requestAnimationFrame` to update the animation on the screen.
+
+```javascript
+start() {
+  this.lastTime = 0;
+  requestAnimationFrame(this.animate.bind(this));
+}
+
+animate(time) {
+  const timeDelta = time - this.lastTime;
+  this.game.step(timeDelta);
+  this.game.draw(this.ctx);
+  this.lastTime = time;
+  requestAnimationFrame(this.animate.bind(this));
+}
+```
 
 ### Future features
 
