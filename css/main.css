@@ -36,6 +36,10 @@ h1 {
   padding-left: 5px;
 }
 
+#canvas {
+  border: solid 1px #0e592c;
+}
+
 /************************************************/
 
 .modal, .modal-win {
